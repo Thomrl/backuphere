@@ -1,7 +1,7 @@
 #! python3.5
 #Backup files chosen folder. Making a backup folder in that folder.
 import os, sys
-from distutils.dir_util import copy_tree
+from distutils.dir_util import copy_tree #I just googled to this
 
 #Select folder and check if it exists
 path = sys.argv[1]
